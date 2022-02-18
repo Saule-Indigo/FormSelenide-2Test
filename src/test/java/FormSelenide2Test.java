@@ -20,11 +20,11 @@ public class FormSelenide2Test {
     void testForm() {
         open("/automation-practice-form");
         $(".main-header").shouldHave(text("Practice Form"));
-        $("#firstName").setValue("Artem");
-        $("#lastName").setValue("Krivoshein");
-        $("#userEmail").setValue("krivo6ein@gmail.com");
+        $("#firstName").setValue("Ivan");
+        $("#lastName").setValue("Ivanov");
+        $("#userEmail").setValue("ivanov@gmail.com");
         $("#gender-radio-1").doubleClick();
-        $("#userNumber").setValue("7078499942");
+        $("#userNumber").setValue("7059005533");
         $(".react-datepicker__input-container").click();
         $(".react-datepicker__month-select").selectOptionByValue("2");
         $(byText("8")).click();
@@ -45,8 +45,8 @@ public class FormSelenide2Test {
 
         //проверка значений
 
-        $(".table-responsive").shouldHave(text("Artem Krivoshein"),
-                text("krivo6ein@gmail.com"), text("Male"), text("7078499942"), text("08 March,2022"),
+        $(".table-responsive").shouldHave(text("Ivan Ivanov"),
+                text("krivo6ein@gmail.com"), text("Male"), text("7059005533"), text("08 March,2022"),
                 text("Maths"), text("Music"), text("1.jpg"), text("Kazakhstan"), text("NCR Delhi"));
     }
 }
