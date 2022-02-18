@@ -1,2 +1,2 @@
-# Saule-Indigo-2ManualFormSelenideTestSelenideIDE
-Saule-Indigo/2ManualFormSelenideTestSelenideIDE
+# 2ManualFormSelenideTestSelenideIDE
+2ManualFormSelenideTestSelenideIDE
