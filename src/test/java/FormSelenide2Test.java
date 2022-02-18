@@ -46,7 +46,7 @@ public class FormSelenide2Test {
         //проверка значений
 
         $(".table-responsive").shouldHave(text("Ivan Ivanov"),
-                text("krivo6ein@gmail.com"), text("Male"), text("7059005533"), text("08 March,2022"),
+                text("ivanov@gmail.com"), text("Male"), text("7059005533"), text("08 March,2022"),
                 text("Maths"), text("Music"), text("1.jpg"), text("Kazakhstan"), text("NCR Delhi"));
     }
 }
