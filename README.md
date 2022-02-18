@@ -1,2 +1,2 @@
-# 2ManualFormSelenideTestSelenideIDE
-2ManualFormSelenideTestSelenideIDE
+# FormSelenide-2Test
+FormSelenide-2Test
