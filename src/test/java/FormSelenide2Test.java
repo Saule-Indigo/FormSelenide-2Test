@@ -37,7 +37,6 @@ public class FormSelenide2Test {
         $("#currentAddress").setValue("Kazakhstan");
         $("#react-select-3-input").doubleClick();
         $("#react-select-3-input").setValue("N").pressEnter();
-        sleep(500);
         $("#react-select-4-input").doubleClick();
         $("#react-select-4-input").setValue("D").pressEnter();
         $("#submit").click();
